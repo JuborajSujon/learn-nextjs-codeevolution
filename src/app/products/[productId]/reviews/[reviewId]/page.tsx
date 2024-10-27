@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 
-const ReviewDetail = ({
+const ReviewDetail = async ({
   params,
 }: {
   params: { productId: string; reviewId: string };
